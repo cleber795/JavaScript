@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando o seu primeiro script</title>
+    <style>
+        body{
+            background-color: rgb(91, 91, 249);
+            color:white;
+            font: normal 25pt arial;
+        }
+
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        window.alert('Minha primeira mensagem!')
+        window.confirm('Esta gostando de JavaScript?')
+        window.prompt('Qual é seu nome?')
+    </script>
+    <!--
+O objeto window em JavaScript representa a janela do navegador e é o objeto mais alto na hierarquia do Document Object Model (DOM). Ele fornece acesso a propriedades e métodos para manipular a janela, como:
+    Propriedades
+        1. window.location: URL atual da página.
+        2. window.document: Documento HTML atual.
+        3. window.history: Histórico de navegação.
+        4. window.navigator: Informações sobre o navegador.
+        5. window.screen: Propriedades da tela.
+        6. window.innerWidth e window.innerHeight: Largura e altura da janela.
+    Métodos
+        1. window.alert(): Exibe uma caixa de alerta.
+        2. window.confirm(): Exibe uma caixa de confirmação.
+        3. window.prompt(): Exibe uma caixa de entrada de texto.
+        4. window.open(): Abre uma nova janela ou aba.
+        5. window.close(): Fecha a janela atual.
+        6. window.scrollTo(): Desloca a página para uma posição específica.
+        7. window.setTimeout(): Executa uma função após um tempo especificado.
+        8. window.setInterval(): Executa uma função em intervalos regulares.
+    Eventos
+        1. window.onload: Disparado quando a página é carregada.
+        2. window.unload: Disparado quando a página é fechada.
+        3. window.resize: Disparado quando a janela é redimensionada.
+        4. window.scroll: Disparado quando a página é rolada.
+    Exemplos
+        1. Redirecionar para uma nova URL:
+        window.location.href = "(link unavailable)";
+        2. Exibir uma caixa de alerta:
+        window.alert("Mensagem de alerta!");
+        3. Abrir uma nova janela:
+        window.open("(link unavailable)", "_blank");
+        4. Deslocar a página para o topo:
+        window.scrollTo(0, 0);
+    Boas práticas
+        1. Utilize window apenas quando necessário.
+        2. Evite utilizar window como objeto global.
+        3. Utilize funções anonimas para evitar poluição do escopo global.
+        4. Teste em diferentes navegadores e dispositivos.
+    -->
+</body>
+</html>
