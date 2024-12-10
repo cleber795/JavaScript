@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <style>
+        body{
+            background-color: rgb(91, 91, 249);
+            color:white;
+            font: normal 25pt arial;
+        }
+
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        window.alert('Minha primeira mensagem!')
+        window.confirm('Esta gostando de JavaScript?') // Janela com botão Ok e Cancelar
+        window.prompt('Qual é seu nome?') // Vai perguntar nome
+    </script>
+    
+<!--
+Variáveis e Tipos Primitivos
+
+    Identificadores:
+        1.Podem começar com Letras, $ ou _
+        2.Não podem começar com números
+        3.É possível usar Letras e Números
+        4.É possível usar Acentos e Símbolos
+        5.Não podem conter Espaços
+        6.Não podem ser Palavras Reservadas
+    Dicas:
+        1.Maiúsculas e minúsculas fazem a diferença
+        2.Tente escolher nomes coerentes para suas variáveis
+        3.Evite se tornar um 'progamador alfabeto' (var = a,b,c,d,e...) ou um 'progrador contador' (var = n1,n2,n3,n4...)
+
+    Tipos Primitivos:
+        1. Number (número): 42, 3.14, -100
+        2. String (texto): 'Olá', "Mundo", 'Eu sou um texto'
+        3. Boolean (lógico): true, false
+        4. Null (nulo): null
+        5. Undefined (indefinido): undefined
+        6. Symbol (símbolo): Symbol('nome')
+    Tipos Compostos:
+        1. Object (objeto): { nome: 'João', idade: 30 }
+        2. Array (vetor): [1, 2, 3], ['a', 'b', 'c']
+        3. Function (função): function soma(a, b) { return a + b; }
+        4. Date (data): new Date('2024-12-10')
+    Tipos Especiais:
+        1. NaN (não é um número): resultado de operações inválidas (ex.: 0/0)
+        2. Infinity (infinito): resultado de operações com números muito grandes
+
+    Exemplos
+        // Tipos primitivos
+            let idade = 30; // Number
+            let nome = 'João'; // String
+            let isAdmin = true; // Boolean
+            let pessoa = null; // Null
+            let desconhecido; // Undefined
+        // Tipos compostos
+            let pessoa = { nome: 'João', idade: 30 }; // Object
+            let frutas = ['maçã', 'banana', 'laranja']; // Array
+            let soma = function(a, b) { return a + b; }; // Function
+            let dataNascimento = new Date('1990-01-01'); // Date
+
+        // Tipos especiais
+            let resultado = 0 / 0; // NaN
+            let infinito = 1 / 0; // Infinity
+
+    Verificando tipos
+        Utilize o operador typeof para verificar o tipo de uma variável:
+            console.log(typeof 30); // "number"
+            console.log(typeof 'Olá'); // "string"
+            console.log(typeof true); // "boolean"
+            console.log(typeof null); // "object"
+            console.log(typeof undefined); // "undefined"
+
+-->
+</body>
+</html>
