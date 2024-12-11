@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores (Parte1)</title>
+</head>
+<style>
+    body{
+            background-color: rgb(134, 134, 237);
+            color: black;
+            font: normal, 50pt, arial
+        }
+</style>
+<body>
+<!--
+JavaScript possui os seguintes operadores:
+    Operadores Aritméticos
+        1. Soma: a + b
+        2. Subtração: a - b
+        3. Multiplicação: a * b
+        4. Divisão: a / b
+        5. Módulo (resto): a % b
+        6. Exponenciação: a ** b (ES7)
+        7. Incremento: a++ ou ++a
+        8. Decremento: a-- ou --a
+            Ordem de Precedência
+                1. Exponenciação (**): 2 ** 3
+                2. Incremento/Decremento (++, --): a++, --b
+                3. Multiplicação (*), Divisão (/), Módulo (%): 2 * 3, 4 / 2, 5 % 2
+                4. Soma (+), Subtração (-): 2 + 3, 4 - 2
+    Operadores de Atribuição
+        1. Atribuição simples: a = b
+        2. Atribuição soma: a += b
+        3. Atribuição subtração: a -= b
+        4. Atribuição multiplicação: a *= b
+        5. Atribuição divisão: a /= b
+        6. Atribuição módulo: a %= b
+        7. Atribuição exponenciação: a **= b (ES7)
+    Operadores de Comparação
+        1. Igualdade estrita: a === b
+        2. Desigualdade estrita: a !== b
+        3. Igualdade solta: a == b
+        4. Desigualdade solta: a != b
+        5. Maior que: a > b
+        6. Menor que: a < b
+        7. Maior ou igual: a >= b
+        8. Menor ou igual: a <= b
+        Operadores Lógicos
+        1. E (conjunção): a && b
+        2. Ou (disjunção): a || b
+        3. Não (negação): !a
+        4. E exclusivo (XOR): a ^ b (não é um operador lógico padrão)
+    Operadores de Bits
+        1. E bit a bit: a & b
+        2. Ou bit a bit: a | b
+        3. Ou exclusivo bit a bit: a ^ b
+        4. Deslocamento para esquerda: a << b
+        5. Deslocamento para direita: a >> b
+        6. Deslocamento para direita sem sinal: a >>> b
+    Operadores Ternários
+        1. Condição ? valor_se_verdadeiro : valor_se_falso
+        Operadores de String
+        1. Concatenação: a + b
+        2. Repetição: a.repeat(b)
+    Operadores de Array
+        1. Acesso a elemento: arr[idx]
+        2. Compreensão de array: [...arr].map()
+        3. Desestruturação: [a, b] = arr
+    Operadores de Objeto
+        1. Acesso a propriedade: obj.prop
+        2. Desestruturação: { a, b } = obj
+        3. Operador de propriedade: obj?.prop (opcional chaining, ES2020)
+    Outros Operadores
+        1. Operador de tipo: typeof a
+        2. Operador de deletar propriedade: delete obj.prop
+        3. Operador de verificar propriedade: in (ex.: 'prop' in obj)
+        4. Operador de instancia de objeto: instanceof (ex.: obj instanceof Array)
+-->
+    <script>
+// Operadores aritméticos
+    /*
+    5 + 2 -> 7
+    5 - 2 -> 3
+    5 * 2 -> 10
+    5 / 2 -> 2.5
+    5 % 2 -> 1
+    5** 2 -> 25
+    */
+            //Ordem precedencia
+            // ()
+            // **
+            // * / %
+            // + -
+                //var a = 5 + 3
+                //var b = a % 5
+                //var c = 5 * b ** 2    -->  b ** 2 primeiro 
+                //var d = 10 - a / 2    -->  a / 2 primeiro
+                //var e = 6 * 2 / d     -->  6 * 2 primeiro
+                //var f = b % e + 4 / e -->  b % e primeiro  4 / e segundo
+
+//Operadores de Atribuição
+    // var n = 3
+    // n = n + 4
+    // n = n - 5
+    // n = n * 4
+    // n = n / 2
+    // n = n ** 2
+    // n = n % 5
+        //Simplificando
+            // n += 4
+            // n -= 5
+            // n *= 4
+            // n /= 2
+            // n **= 2
+            // n %= 5
+                // Incremento
+                    // n++
+                    // n--
+    </script>
+</body>
+</html>
